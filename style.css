@@ -1,0 +1,30 @@
+.body_background {
+    background-image: url("background.jpg");
+}
+
+#snap {
+    height: 65px;
+    width: 150px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#fill {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px red;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
